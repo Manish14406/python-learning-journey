@@ -1,0 +1,13 @@
+#What happens if languages are same 
+
+d = {}
+Name = input("enter name of friends:")
+language = input("Enter thr language :")
+d.update({Name: language})
+Name = input("enter name of friends:")
+language = input("Enter thr language :")
+d.update({Name: language})
+Name = input("enter name of friends:")
+language = input("Enter thr language :")
+d.update({Name: language})
+print(d)

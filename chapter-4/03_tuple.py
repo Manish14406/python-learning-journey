@@ -1,0 +1,6 @@
+manishtuple = ("manish",2,2,3,54)
+print(manishtuple)
+no = manishtuple.count(2)
+print(no)
+i = manishtuple.index("manish")
+print(i)

@@ -1,0 +1,2 @@
+for i in range(len(df)):
+    print("Candle",i,"High =",df.loc[i,"high"])
