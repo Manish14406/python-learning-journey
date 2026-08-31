@@ -71,19 +71,14 @@
 #         left +=1
 #         right -=1
 
-nums = [2,7,11,15]
-left = 0
-right = len(nums)-1
-while(left < right):
-    target = nums[left]  + nums[right]
+# # tow sum 
+# nums = [2,7,11,15]
 
-    if(target < 9):
-        left+=1
-    elif(target > 9):
-        right-=1
+# target = 9
 
-    else:
-      print(nums[left],nums[right])
-      left+=1
-      right-=1
+# for i in range(len(nums)):
+#     for j in range(i+1,len(nums)):
+#         if(nums[i]+ nums[j] == target):
+#             print(i,j)
 
+# two sum hashmap approach
